@@ -31,6 +31,8 @@ You need a Doom IWAD file to play. The plugin auto-scans:
 
 Place your WAD in `~/Games/doom/` or set the path in widget settings.
 
+If you have multiple WADs, the plugin picks the first one found (alphabetically). Set a specific path in widget settings to choose a different one (e.g., DOOM2.WAD).
+
 ## Controls
 
 - **Left click** the skull to launch Doom
