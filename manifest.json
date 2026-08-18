@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "id": "com.user.doom",
+  "name": "DOOM",
+  "version": "1.0.0",
+  "author": "deoxizn",
+  "description": "Everything should have Doom. Click to rip and tear.",
+  "icon": "face-devilish",
+  "kinds": ["bar-widget"],
+  "entryPoints": {
+    "barWidget": "Widget.qml"
+  },
+  "barWidget": {
+    "displayName": "DOOM",
+    "category": "Fun",
+    "defaultSection": "right",
+    "allowMultiple": false,
+    "schema": [
+      {
+        "key": "binary",
+        "type": "string",
+        "label": "Doom Binary",
+        "description": "Path to your Doom source port binary",
+        "default": "doomretro"
+      },
+      {
+        "key": "wad",
+        "type": "string",
+        "label": "WAD File",
+        "description": "Path to DOOM.WAD or DOOM1.WAD (leave empty for built-in shareware)",
+        "default": ""
+      },
+      {
+        "key": "extraArgs",
+        "type": "string",
+        "label": "Extra Args",
+        "description": "Additional arguments passed to the binary",
+        "default": ""
+      }
+    ]
+  }
+}
