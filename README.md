@@ -1,5 +1,7 @@
 # omarchy-doom
 
+![preview](preview.png)
+
 **Everything should have Doom.**
 
 A bar widget for Omarchy/Quickshell that launches Doom. Click the skull, rip and tear.
