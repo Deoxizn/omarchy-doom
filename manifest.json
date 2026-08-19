@@ -5,6 +5,7 @@
   "version": "1.0.0",
   "author": "deoxizn",
   "description": "Everything should have Doom. Click to rip and tear.",
+  "license": "MIT",
   "icon": "face-devilish",
   "kinds": ["bar-widget"],
   "entryPoints": {
